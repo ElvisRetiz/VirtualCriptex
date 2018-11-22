@@ -1,0 +1,79 @@
+*{
+    font-family: 'Niramit', sans-serif;
+}
+
+body{
+  background-color: #ffe867;
+}
+
+b{
+  margin: auto auto;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+button{
+  border-radius: 5px;
+  background-color: #1f4287;
+  color: aliceblue;
+}
+
+.separator{
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.cajas{
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-width: medium;
+  border-radius: 15px;
+  margin: 0 0;
+  height: 100px;
+  width: 100px;
+  font-size: 60px;
+  background-color: aliceblue;
+}
+
+.botonesUp{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.botonesDown{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.texto{
+  font-size: 30px;
+  margin: 25px auto;
+}
+
+.botonGrita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grita{
+  font-size: 30px;
+  font-weight: bold;
+  width: 116px;
+  height: 56px;
+}
